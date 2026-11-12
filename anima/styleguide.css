@@ -1,0 +1,23 @@
+:root {
+  --color-background-utilities-scrim: rgba(255, 255, 255, 0.8);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-color-mode="SDS-light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-color-mode="SDS-light"] {
+  --color-background-utilities-scrim: rgba(255, 255, 255, 0.8);
+}
+
+[data-color-mode="SDS-dark"] {
+  --color-background-utilities-scrim: rgba(0, 0, 0, 0.8);
+}
